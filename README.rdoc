@@ -1,0 +1,3 @@
+= searcher
+
+A Redmine plugin for demonstrating Redmine message {#44230 (Setting object returning nil)}[http://www.redmine.org/boards/3/topics/44230].
