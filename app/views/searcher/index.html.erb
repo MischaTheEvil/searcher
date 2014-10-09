@@ -19,25 +19,25 @@
 
   <li>
     <% if Setting['plugin_searcher']['abc'] == 'xxx' %>
-      Result of <code>Setting['plugin_searcher'][:abc]</code> equals "xxx".
+      Result of <code>Setting['plugin_searcher']['abc']</code> equals "xxx".
     <% else %>
-      Result of <code>Setting['plugin_searcher'][:abc]</code> does not equal "xxx".
+      Result of <code>Setting['plugin_searcher']['abc']</code> does not equal "xxx".
     <% end %>
   </li>
 
   <li>
     <% if Setting['plugin_searcher']['abc2'] != 'xxx' %>
-      Result of <code>Setting['plugin_searcher'][:abc2]</code> does not equal "xxx".
+      Result of <code>Setting['plugin_searcher']['abc2']</code> does not equal "xxx".
     <% else %>
-      Result of <code>Setting['plugin_searcher'][:abc2]</code> does equal "xxx".
+      Result of <code>Setting['plugin_searcher']['abc2']</code> does equal "xxx".
     <% end %>
   </li>
 
   <li>
     <% if Setting['plugin_searcher']['abc2'] == 'yyy' %>
-      The result of <code>Setting['plugin_searcher'][:abc2]</code> equals "yyy".
+      The result of <code>Setting['plugin_searcher']['abc2']</code> equals "yyy".
     <% else %>
-      The result of <code>Setting['plugin_searcher'][:abc2]</code> does not equal "yyy".
+      The result of <code>Setting['plugin_searcher']['abc2']</code> does not equal "yyy".
     <% end %>
   </li>
 </ol>
