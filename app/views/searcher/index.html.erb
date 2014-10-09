@@ -4,7 +4,7 @@
 
 <p>
   The following four tests shows the output of some equations based on the
-  default settings values for <code>:abc</code> (xxx) and <code>:abc2</code>
+  default settings values for <code>'abc'</code> (xxx) and <code>'abc2'</code>
   (yyy):
 </p>
 
@@ -18,7 +18,7 @@
   </li>
 
   <li>
-    <% if Setting['plugin_searcher'][:abc] == 'xxx' %>
+    <% if Setting['plugin_searcher']['abc'] == 'xxx' %>
       Result of <code>Setting['plugin_searcher'][:abc]</code> equals "xxx".
     <% else %>
       Result of <code>Setting['plugin_searcher'][:abc]</code> does not equal "xxx".
@@ -26,7 +26,7 @@
   </li>
 
   <li>
-    <% if Setting['plugin_searcher'][:abc2] != 'xxx' %>
+    <% if Setting['plugin_searcher']['abc2'] != 'xxx' %>
       Result of <code>Setting['plugin_searcher'][:abc2]</code> does not equal "xxx".
     <% else %>
       Result of <code>Setting['plugin_searcher'][:abc2]</code> does equal "xxx".
@@ -34,7 +34,7 @@
   </li>
 
   <li>
-    <% if Setting['plugin_searcher'][:abc2] == 'yyy' %>
+    <% if Setting['plugin_searcher']['abc2'] == 'yyy' %>
       The result of <code>Setting['plugin_searcher'][:abc2]</code> equals "yyy".
     <% else %>
       The result of <code>Setting['plugin_searcher'][:abc2]</code> does not equal "yyy".

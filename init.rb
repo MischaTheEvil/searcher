@@ -9,8 +9,8 @@ Redmine::Plugin.register :searcher do
   author_url 'https://github.com/MischaTheEvil'
 
   settings :default => {
-    :abc  => 'xxx',
-    :abc2 => 'yyy'
+    'abc'  => 'xxx',
+    'abc2' => 'yyy'
   }, :partial => 'settings/searcher_settings'
 
   menu :top_menu, :searcher, { :controller => 'searcher', :action => 'index' }, :caption => 'Searcher'
